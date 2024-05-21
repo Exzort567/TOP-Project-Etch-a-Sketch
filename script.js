@@ -83,7 +83,7 @@ function clearGrid() {
 function gridEraser() {
     const squares = document.querySelectorAll("#container .sqr");
     squares.forEach(sqr => {
-        sqr.addEventListener('click', () => {
+        sqr.addEventListener('mouseover', () => {
             if(isMouseDown) {
                 sqr.style.backgroundColor = '';
             }
